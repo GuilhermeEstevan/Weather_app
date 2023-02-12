@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/728ce8f316.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <main id="bg-img">
+        <!-- LEFT SIDE -->
+        <div id="left-side">
+            <div class="weather-desc">Clouds</div>
+            <div class="city">Recife</div>
+            <div class="data">data,dia,mes,ano,hora</div>
+            <div class="temperature">20 °C</div>
+
+            <form class="search-box">
+                <input type="text" class="search-box-input" placeholder="Digite o Local">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>  
+                </div>
+            </form>
+            <div class="alert"></div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div id="right-side">
+            <div class="weather-details">
+                <div class="weather-details-icon">
+                    <i class="fa-solid fa-wind"></i>
+                </div>
+                <div class="weather-details-info-menu">
+                    <p>Vento</p>
+                    <div class="weather-details-info" id="wind-speed">INFO</div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="weather-details-icon">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+                <div class="weather-details-info-menu">
+                    <p>Umidade</p>
+                    <div class="weather-details-info" id="humidity">INFO</div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="weather-details-icon">
+                    <i class="fa-solid fa-temperature-high"></i>
+                </div>
+                <div class="weather-details-info-menu">
+                    <p>Sensação</p>
+                    <div class="weather-details-info" id="feels-like">INFO</div>
+                </div>
+
+            </div>
+
+
+            <div class="weather-icon">
+                <img src="" alt="" class="weather-icon-img">
+            </div>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+</body>
+
+</html>
