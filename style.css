@@ -6,6 +6,10 @@ html {
     padding: 0%;
 }
 
+.hide {
+    visibility: hidden;
+}
+
 #bg-img {
     /* The image used */
     background-image: url("./images/pexels-lumn-167699.jpg");
